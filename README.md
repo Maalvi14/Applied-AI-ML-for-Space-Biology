@@ -102,21 +102,21 @@ NASA Open Science Data Repository (OSDR) / GeneLab references:
 ### Supervised learning — Classification
 - **LogisticRegression**, **SVC**, **KNeighborsClassifier**
 - **DecisionTreeClassifier**, **RandomForestClassifier**
-- Linear models like **Perceptron** / **SGDClassifier** (as baselines)
-- Model selection: **GridSearchCV** / **RandomizedSearchCV** (when present)
+- Linear models like **Perceptron** / **SGDClassifier**
+- Model selection: **GridSearchCV** / **RandomizedSearchCV**
 
 ### Supervised learning — Regression
 - **LinearRegression**, **Ridge**, **Lasso** (regularization)
 - Tree-based/ensemble regressors when included
-- **SVR** / **SGDRegressor** (where used)
+- **SVR** / **SGDRegressor**
 
 ### Unsupervised learning
-- **KMeans**, density/hierarchical variants when used
+- **KMeans**
 - **silhouette_score** (cluster quality)
 - PCA projections for visualization of clusters
 
 ### Deep learning
-- Framework scaffolding with **PyTorch** and **Keras/TensorFlow** (e.g., `nn.Conv2d`, `Sequential`, `Conv2D`, `Dense`)
+- Framework scaffolding with **PyTorch** and **Keras/TensorFlow**
 - Basic image preprocessing (PIL / scikit-image)
 
 ### Explainable AI (XAI)
