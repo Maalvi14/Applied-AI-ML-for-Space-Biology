@@ -1,7 +1,5 @@
 # NASA TOPS-T ScienceCore: AI/ML in Space Biology — Notebook Suite
 
-> Consolidated README generated from the notebooks in this folder.
-
 ## Overview
 This notebook suite was completed as part of the **NASA Transform to Open Science (TOPS-T) – ScienceCore: AI/ML in Space Biology Training**.  
 It walks from data fundamentals → visualization/EDA → tabular ML (classification & regression) → image data → clustering/unsupervised learning → explainable AI (XAI), with emphasis on open-science practices and NASA space-biology datasets (OSDR / GeneLab).
