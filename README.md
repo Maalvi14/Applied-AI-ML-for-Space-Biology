@@ -35,6 +35,43 @@ It walks from data fundamentals → visualization/EDA → tabular ML (classifica
 - **Bioinformatic Tools**  
   *Space-bio tooling overview; dimensionality reduction; ties to downstream ML/XAI.*
 
+---
+
+## Space Biology Topics Covered
+
+- **Spaceflight vs. Ground Control comparisons (rodent models)**  
+  Using OSDR/GeneLab datasets to contrast flight and ground samples, especially in the eye/retina context (GLDS/OSD-255 RNA-seq; metadata labels “Space Flight” vs “Ground Control”).
+
+- **Spaceflight-Associated Neuro-ocular Syndrome (SANS)**  
+  Intro and background on SANS, its relevance to astronaut vision, and why ocular/retinal endpoints matter in spaceflight studies.
+
+- **Rodent Research-9 (RR9) mission focus**  
+  RR9 mission context and data usage; analyses built around RR9 ocular outcomes and retinal tissue.
+
+- **Retina/ocular phenotyping**
+  - **Tonometry / Intraocular Pressure (IOP)** measures (OSD-583).
+  - **Immunostaining microscopy (PECAM/CD31)** as an endothelial/vascular marker (OSD-568).
+  - **Tomography/ophthalmic imaging** references (OSD-557).  
+    These phenotypes are linked to flight status and used as targets/labels in ML.
+
+- **Transcriptomics under spaceflight (RNA-seq)**
+  - Normalized gene-expression matrices from **GLDS-255 / OSD-255** (mouse retina).
+  - Differential expression filtering (DE/“DGEA”) to enrich flight vs. ground signals.
+  - Integrating RNA-seq with phenotypes (e.g., predicting PECAM or thresholds from transcriptomic features).
+
+- **Biological pathways & signatures**  
+  Pathway-level interpretation (e.g., MSigDB inputs) suggesting ties to **vascular/angiogenesis** and **muscle/structure** phenotypes relevant to microgravity adaptation.
+
+- **Unsupervised signatures of spaceflight**
+  - **PCA** visualizations separating flight/ground samples.
+  - **k-means clustering** on RNA-seq (with outlier checks), highlighting whether flight status forms distinct molecular clusters.
+
+- **Explainable models connecting genes → ocular phenotypes**
+  - **Linear/Ridge regression** and **Random Forest** models that map RNA-seq to **PECAM** microscopy readouts.
+  - **SHAP** and **permutation importance** to identify **gene drivers** most associated with ocular/vascular endpoints under spaceflight.
+
+- **Bioimaging data handling**  
+  Basic pipelines for microscopy/image data (loading, preprocessing), with ties to molecular data where possible.
 
 ---
 
